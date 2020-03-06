@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 16px;
+
+}
+
+.businesscard {
+    background: #CF8F8F;
+    max-width: 572px;
+    max-height: 342px;
+    width: 100%;
+}
+
+.person__photo {
+    margin-top: 36px;
+    margin-left: 18px;
+}
+
